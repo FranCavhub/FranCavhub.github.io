@@ -1,8 +1,4 @@
-model-viewer{
-	width: 200px;
-	height: 200px;
-	margin: 0 auto;
-}
+
 html{
 	scroll-behavior: smooth;
 }
@@ -26,6 +22,12 @@ nav{
 	padding-top: 45px;
 	padding-left: 8%;
 	padding-right: 8%;
+}
+.sociales{
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	font-size: 20px;
 }
 
 span{
@@ -265,6 +267,11 @@ footer p:nth-child(2){
 .social a:hover{
 	transform: scale(1.3);
 	transition: .3s;
+}
+.footer_social{
+	text-align: left;
+	color: #858585;
+
 }
 .end{
 	position: absolute;
